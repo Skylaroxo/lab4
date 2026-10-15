@@ -1,1 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #383838;
+    background-color: #f5f9ff;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 20px 16px;
+    background-color: #b6daff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links a {
+    color: #383838;
+    text-decoration: none;
+}
+
+/* Main */
+.container {
+    padding: 24px 16px;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.hero-banner,
+.hero-sidebar {
+    background-color: #ffffff;
+    border: 2px solid #b6daff;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.eyebrow {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.hero-banner h1 {
+    margin-bottom: 16px;
+}
+
+.hero-banner p {
+    margin-bottom: 24px;
+}
+
+.hero-sidebar h3 {
+    margin-bottom: 8px;
+}
+
+.hero-sidebar hr {
+    border: none;
+    border-top: 1px solid #b6daff;
+    margin: 16px 0;
+}
+
+.quick-info {
+    list-style: none;
+}
+
+.btn-primary,
+.btn-card {
+    background-color: #1e5fa8;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
+
+.btn-primary:hover,
+.btn-card:hover {
+    box-shadow: 0 4px 10px #b6daff;
+}
+
+.section-title {
+    margin: 40px 0 16px;
+}
+
+.cards-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 2px solid #b6daff;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.card-img {
+    height: 170px;
+    background-color: #d9d9d9;
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    margin-bottom: 8px;
+}
+
+.card p {
+    margin-bottom: 24px;
+}
+
+.btn-card {
+    margin-top: auto;
+    width: 100%;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 24px 16px;
+    margin-top: 40px;
+    background-color: #b6daff;
+}
+
+.footer-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-links a {
+    color: #383838;
+    text-decoration: none;
+}
