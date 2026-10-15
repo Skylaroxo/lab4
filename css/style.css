@@ -163,6 +163,11 @@ h3 { font-size: 1.25rem; }
     text-decoration: none;
 }
 
+.nav-links a:hover,
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
  
     h1 { font-size: 3rem; }
